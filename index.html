@@ -15,7 +15,6 @@
 </head>
 <body>
     <div class="container"> 
-
         <div class="hamburguer">
             <div class="line" id="line1"></div>
             <div class="line" id="line2"></div>
@@ -34,7 +33,7 @@
             </div>
         </header>
 
-        <div class="sidebar">
+        <aside class="sidebar">
             <nav>
                 <ul class="menu"> 
                     <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
@@ -49,8 +48,164 @@
                 <a href="#"><i class="fab fa-github-alt"></i></a>
                 <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
-        </div>
+        </aside>
     </div>
+    <section class="sessao-conhecimentos" id="conhecimentos">
+        <div class="sessao-header">
+          <h1>Conhecimentos</h1>
+        </div>
+        <div class="conhecimentos">
+          <div class="conhecimento">
+            <div class="conhecimento-header">
+              <i class="fab fa-html5"></i>
+              <h3>HTML</h3>
+            </div>
+            <div class="conhecimento-text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vel obcaecati eaque quos, labore quibusdam incidunt dolores vitae velit voluptates esse omnis enim, dolorem eveniet. Rem ab obcaecati totam ipsum!</p>
+            </div>
+          </div>
+          <div class="conhecimento">
+            <div class="conhecimento-header">
+              <i class="fab fa-css3-alt"></i>
+              <h3>CSS</h3>
+            </div>
+            <div class="conhecimento-text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore pariatur asperiores incidunt quod, sed aspernatur eos commodi ex nostrum consequuntur aut vero cum illum perferendis earum, eveniet hic itaque. Quod.</p>
+            </div>
+          </div>
+          <div class="conhecimento">
+            <div class="conhecimento-header">
+              <i class="fas fa-pen"></i>
+              <h3>Design</h3>
+            </div>
+            <div class="conhecimento-text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ex eius voluptatem deleniti alias commodi doloremque aspernatur id adipisci quia ea, distinctio maxime, at nemo. Officiis suscipit excepturi quia aut?</p>
+            </div>
+          </div>
+          <div class="conhecimento">
+            <div class="conhecimento-header">
+              <i class="fab fa-js"></i>
+              <h3>Javascript</h3>
+            </div>
+            <div class="conhecimento-text">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quas facere alias, reprehenderit ullam quibusdam itaque dolor nulla odio inventore culpa molestiae porro ea ad illo, quos dicta ratione quisquam?
+              </p>
+            </div>
+          </div>
+          <div class="conhecimento">
+            <div class="conhecimento-header">
+              <i class="fab fa-vuejs"></i>
+              <h3>Vue.js</h3>
+            </div>
+            <div class="conhecimento-text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sequi, quas illo dolor totam voluptas pariatur harum blanditiis veritatis culpa doloremque aspernatur nesciunt dicta iure fuga similique ad, ut impedit.</p>
+            </div>
+          </div>
+          <div class="conhecimento">
+            <div class="conhecimento-header">
+              <i class="fab fa-github"></i>
+              <h3>Git e GitHub</h3>
+            </div>
+            <div class="conhecimento-text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet facilis distinctio quaerat eaque !</p>
+            </div>
+        </div>
+            <div class="conhecimentos-img-wrapper">
+                <img src="images/conhecimentos.png" alt="imagem conhecimento">
+            </div>
+        </div>
+      </section>
+
+      <section class="sessao-projetos">
+        <div class="sessao-header" >
+          <h1>Projetos</h1>
+        </div>
+        <div class="projetos">
+          <div class="card">
+            <div class="card-img-wrapper">
+              <img src="Images/madara-ucihha-wallpaper-naruto.jpg" alt="Imagem do buscador de animes">
+            </div>
+            <div class="card-info">
+              <h2>Buscador de animes</h2>
+              <h3>Vue.js</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut magni similique dicta quidem !</p>
+              <button>Saiba mais</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-wrapper">
+              <img src="Images/portifolio.jpg" alt="Imagem do projeto portifólio">
+            </div>
+            <div class="card-info">
+              <h2>Portifólio</h2>
+              <h3>HTML, CSS e JS</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, nostrum aut et explicabo .</p>
+              <button>Saiba mais</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-wrapper">
+              <img src="Images/designer.jpg" alt="Imagem do projeto designer">
+            </div>
+            <div class="card-info">
+              <h2>Portifólio designer</h2>
+              <h3>HTML, CSS e JS</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veritatis ipsum iste neque, !</p>
+              <button>Saiba mais</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sessao-contato">
+        <div class="contato-wrapper">
+          <div class="contato-left"></div>
+          <div class="contato-right">
+            <h1>Contato</h1>
+            <form>
+              <div class="input-group">
+                <input type="text" class="field" id="nome">
+                <label for="nome" class="field-label">Nome</label>
+              </div>
+              <div class="input-group">
+                <input type="text" class="field" id="email">
+                <label for="email" class="field-label">Email</label>
+              </div>
+              <div class="input-group">
+                <textarea class="field" id="mensagem"></textarea>
+                <label for="mensagem" class="field-label">Mensagem</label>
+              </div>
+              <button type="submit" class="btn-submit">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="sessao-orcamento">
+        <div class="orcamento-wrapper">
+          <h1>Faça um orçamento</h1>
+          <form>
+            <label for="qtde">Quantidade de páginas</label>
+            <input type="number" min="1" name="qtde" id="qtde">
+            <label for="js">Preciso de um script JS</label>
+            <input type="checkbox" name="js" id="js">
+            <label>Layout</label>
+            <div class="group-layout">
+              <div>
+                <input type="radio" name="layout" id="layout-sim">
+                <label for="layout-sim">Preciso de um layout</label>
+              </div>
+              <div>
+                <input type="radio" name="layout" id="layout-não">
+                <label for="layout-sim">Já tenho um layout</label>
+              </div>
+            </div>
+              <label for="prazo">Prazo</label>
+              <input type="range" name="prazo" id="prazo">
+              <button class="btn-orçamento" type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
     <script src="script.js"></script>
 </body>
 </html>
