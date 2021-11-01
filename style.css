@@ -9,6 +9,10 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*** Rolagem da Vertical da Página ***/
 ::-webkit-scrollbar-thumb:vertical {
     background: #224f8a; /*Cor da barrinha que se move*/
@@ -110,6 +114,7 @@
     top: 0;
     right: -20rem;
     transition: .5s;
+    z-index: 150;
 }
 
 .show-menu .sidebar {
@@ -606,6 +611,7 @@ header {
     font-family: var(--font-secondary);
     width: 3rem;
     outline: none;
+    padding: .3rem;
     border: none;
     background: rgba(255, 255, 255, 0.753);
     box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.596);
@@ -639,4 +645,56 @@ input[type=number]::-webkit-inner-spin-button {
     font-size: 1.2rem;
 }
 
+footer {
+    width: 100%;
+    height: 7rem;
+    background-color: #17181b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content p {
+    font-family: var(--font-primary);
+    font-size: 1.2rem;
+    color: #a7a7a7;
+}
+
+.social-list a{
+    margin: 0 2rem;
+    font-size: 1.3rem;
+    color: #a7a7a7;
+}
+
+.social-list ul{
+    display: flex;
+}
+
+#link-topo {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    width: 3rem;
+    height: 3rem;
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);
+    background: linear-gradient(to right, #021B79, #0575E6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 .1rem .3rem rgba(0, 0, 0, 0.664);
+    transition: .2s;
+    font-size: 1.2rem;
+}
+
+#link-topo:hover {
+    font-size: 1.5rem;
+}
 
